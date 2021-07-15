@@ -5,7 +5,7 @@
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://encodewpcom.files.wordpress.com/2021/01/bgheader-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ar26ar26/image/upload/v1626361895/salon/bgheader_e0smc2.jpg");
 
   /* Set a specific height */
   height: 100%;
@@ -153,5 +153,22 @@ div.full figure:not(.expanded) { pointer-events: none; }
 }
 
 
+@media screen and (max-width: 600px) {
+  .icon-box {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon-box1 {
+    padding-left: 75px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon-box2 {
+    padding-left: 75px;
+  }
+}
 
 
