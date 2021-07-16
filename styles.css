@@ -153,22 +153,11 @@ div.full figure:not(.expanded) { pointer-events: none; }
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .icon-box {
-    padding-left: 50px;
+    padding-left: 40px;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .icon-box1 {
-    padding-left: 75px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .icon-box2 {
-    padding-left: 75px;
-  }
-}
 
 
